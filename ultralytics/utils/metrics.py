@@ -413,8 +413,8 @@ class ConfusionMatrix:
             sn.heatmap(
                 array,
                 ax=ax,
-                annot=nc < 30,
-                annot_kws={"size": 8},
+                annot=nc < 55,
+                annot_kws={"size": 3},
                 cmap="Blues",
                 fmt=".2f" if normalize else ".0f",
                 square=True,
